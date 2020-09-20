@@ -33,7 +33,7 @@
           </div>
                  
           <div class="rows">
-            <button value="0" class="num-bg zero" id="delete">0</button>
+            <button value="0" class="num-bg zero" id="delete" @click="SetString('0')">0</button>
             <button value="." class="btn-style num-bg period fall-back">.</button>
             <button value="=" id="eqn-bg" class="eqn align" @click="Calculate">=</button>
           </div>
